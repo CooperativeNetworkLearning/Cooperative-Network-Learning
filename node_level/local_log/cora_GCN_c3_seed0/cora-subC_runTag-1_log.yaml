@@ -1,0 +1,25 @@
+args:
+  RPMAX: 10
+  clientNum: 3
+  cuda: 0
+  dataset: cora
+  dir_name: cora_GCN_c3_seed0
+  dropout: 0.5
+  early_stopping: 200
+  epochs: 1000
+  hidden: 32
+  institueion_idx: 2
+  institution_name: cora-subC
+  localIndex: 71
+  lr: 0.01
+  neighborAgencyNum: 0
+  net: GCN
+  print_freq: 20
+  runTag: -1
+  seed: 0
+  train_rate: 0.6
+  val_rate: 0.2
+  weight_decay: 0.0001
+test_acc: 0.7741935483870968
+val_acc: 0.7142857142857143
+val_loss: 1.2078135013580322
