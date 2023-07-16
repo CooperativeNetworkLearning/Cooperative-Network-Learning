@@ -7,6 +7,9 @@
 
 This repository primarily consists of the experimental code for the CNL (Cooperative Network Learning) framework. CNL is a graph machine learning framework dedicated to the equitable and secure sharing of graph data. It encompasses several aspects, including network components, embedding computation, and embedding transmission.
 
+## Introduction
+CNL use P2P-network to construct. The agency which joins CNL repeatedly calls the get_nei_embed_sum service with a custom waiting time based on the task computation complexity. If a non-flag symbol −1 is obtained, the task continues to loop; otherwise, the task obtains the integrated embedding and stops looping. When the computation is completed, the HE computing node transfers the homomorphically encrypted ciphertext to agency and destroys its own message. The reliability of the passing process is guaranteed by remote procedure call (RPC) based on Transmission Control Protocol (TCP). 
+
 ## Ways to Use 
 CNL can be run in two different modes: using a Docker image or deploying the environment directly from the repository.
 
