@@ -1,0 +1,26 @@
+args:
+  RPMAX: 10
+  clientNum: 3
+  cuda: 0
+  dataset: computers
+  dir_name: computers_GCN_c3_seed0
+  dropout: 0.3
+  early_stopping: 200
+  epochs: 10000
+  hidden: 32
+  institueion_idx: 1
+  institution_name: computers-subB
+  localIndex: 172
+  lr: 0.05
+  neighborAgencyNum: 0
+  net: GCN
+  print_freq: 20
+  runTag: -1
+  seed: 0
+  tasktype: 1
+  train_rate: 0.6
+  val_rate: 0.2
+  weight_decay: 0.0001
+test_acc: 0.5977011494252874
+val_acc: 0.5588235294117647
+val_loss: 1.3030427694320679
